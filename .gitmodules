@@ -1,0 +1,6 @@
+[submodule "WhatsDueTomorrow-Backed"]
+	path = WhatsDueTomorrow-Backed
+	url = https://github.com/NicolasBernal1/WhatsDueTomorrow-Backed.git
+[submodule "WhatsDueTomorrow-Frontend"]
+	path = WhatsDueTomorrow-Frontend
+	url = https://github.com/NicolasBernal1/WhatsDueTomorrow-Frontend.git
