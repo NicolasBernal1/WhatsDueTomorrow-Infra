@@ -4,6 +4,11 @@ What's Due Tomorrow? is a web application made for students where they can organ
 
 ## Main Technologies
 - Docker
+- Kubernetes
+- Github Actions
+- Prometheus
+- Grafana
+- ArgoCD
 
 ## How to install
 You can install it by using the [docker-compose.yaml](docker-compose.yaml) file 
