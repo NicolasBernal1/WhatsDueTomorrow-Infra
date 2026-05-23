@@ -16,13 +16,13 @@ jobs:
         service:
           - name: backend
             context: ./WhatsDueTomorrow-Backend
-            dockerfile: ./WhatsDueTomorrow-Backend/Dockerfile
-            image: wdt-backend
+            dockerfile: ./WhatsDueTomorrow-Backend/dockerfile
+            image: backend-wdt
 
           - name: frontend
             context: ./WhatsDueTomorrow-Frontend
-            dockerfile: ./WhatsDueTomorrow-Frontend/Dockerfile
-            image: wdt-frontend
+            dockerfile: ./WhatsDueTomorrow-Frontend/dockerfile
+            image: frontend-wdt
 
     steps:
       - name: Checkout repository with submodules
