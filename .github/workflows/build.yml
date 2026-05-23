@@ -11,8 +11,8 @@ jobs:
       matrix:
         service:
           - name: backend
-            context: ./WhatsDueTomorrow-Backend
-            dockerfile: ./WhatsDueTomorrow-Backend/dockerfile
+            context: ./WhatsDueTomorrow-Backed
+            dockerfile: ./WhatsDueTomorrow-Backed/dockerfile
             image: backend-wdt
           - name: frontend
             context: ./WhatsDueTomorrow-Frontend
