@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: nicolasbernal1/frontend-wdt:latest
+          image: nicolasbernal1/frontend-wdt:9f64222
           imagePullPolicy: Always
           ports:
             - containerPort: 4200
